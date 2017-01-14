@@ -41,6 +41,7 @@ mkdir $OUTPUT_PATH
 # Concat files
 cat "$PACKAGES_PATH/sha.js" >> $OUTPUT_PATH/$NAME.bundle.js
 cat "$PACKAGES_PATH/srp.js" >> $OUTPUT_PATH/$NAME.bundle.js
+cat "$PACKAGES_PATH/ejson.js" >> $OUTPUT_PATH/$NAME.bundle.js
 cat "$PACKAGES_PATH/accounts-password.js" >> $OUTPUT_PATH/$NAME.bundle.js
 cat "$PACKAGES_PATH/global-imports.js" >> $OUTPUT_PATH/$NAME.bundle.js
 
